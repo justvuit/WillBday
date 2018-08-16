@@ -1,0 +1,21 @@
+.section {
+    margin-top: -56px;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    display: grid;
+    grid-template-rows: .05fr 1fr;
+}
+
+.text {
+    color: white;
+    font-size: 9em;
+    grid-row: 2 / 3;
+}
+
+@media (max-width: 550px) {
+    .text {
+        font-size: 5em;
+    }
+}
